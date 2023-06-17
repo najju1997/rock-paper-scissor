@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(92, 86, 86);
+  background-color: rgb(255, 255, 255);
 }
 
 header {
@@ -14,45 +14,44 @@ header {
 }
 
 header > h1 {
-  color: #25272E;
+  color: #25272e;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .score-board {
-  margin: 20px auto;
-  border: 3px solid white;
-  width: 200px;
-  color: white;
+  margin: 40px auto;
+  border: 3px solid rgb(5, 5, 5);
+  width: 300px;
+  color: rgb(48, 48, 48);
   font-size: 46px; 
-  border-radius: 4px;
+  border-radius: 10px;
   text-align: center;
   padding:15px 20px;
   position: relative;
 }
 
 .badge {
-  background: rgb(189, 98, 98);
+  background: rgb(255, 0, 0);
   color: white;
-  font-size: 14px;
+  font-size: 20px;
   padding: 2px 10px;
 
 }
 
 #user-label {
   position: absolute;
-  top: 0;
+  top: 30px;
   left: 0;
 }
 
 #computer-label {
   position: absolute;
-  top: 0;
+  top: 30px;
   right: 0;
 }
 
 .result {
-  color: white;
+  color: rgb(0, 0, 0);
   margin: 20px 20px;
 }
 
@@ -62,13 +61,13 @@ header > h1 {
 }
 
 .choices {
-  margin: 50px 0;
+  margin: 20px 0;
   text-align: center;
   
 }
 
  .choice {
-    border: 4px solid white;
+    border: 4px solid rgb(0, 0, 0);
     border-radius: 50%;
     padding: 20px;
     display: inline-block;
@@ -84,12 +83,12 @@ header > h1 {
  
  .choice:hover {
    cursor: pointer;
-   background: rgb(224, 180, 180);
+   background: rgb(201, 198, 198);
  }
 
  #action-message {
   text-align: center;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 20px;
  }
 
